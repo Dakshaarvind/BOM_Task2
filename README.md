@@ -86,7 +86,7 @@ CREATE DATABASE bom_db;
 > If your PostgreSQL runs on the default port 5432, use `-p 5432` above and update `config.ini` accordingly (see [Configuration](#configuration)).
 
 ### 4. Verify the connection
-# I used datagrip here, and entered some details. Create a query console under a data source: postgres. Then a pop up will ask for user & pass, remmeber what u used during postgres installation & add it. Test connection & continue. Run the above commands after.
+### I used datagrip here, and entered some details. Create a query console under a data source: postgres. Then a pop up will ask for user & pass, remmeber what u used during postgres installation & add it. Test connection & continue. Run the above commands after.
 ```bash
 psql -U postgres -p 5433 -d bom_db
 ```
